@@ -9,13 +9,13 @@
 
 
 
-![HomePage](https://github.com/JohnPolvorosa/CloudAssignment2/blob/master/Images/Snap1.PNG =250x250)
+![HomePage](https://github.com/JohnPolvorosa/CloudAssignment2/blob/master/Images/Snap1.PNG)
 
 
-![Create and Email Task](https://github.com/JohnPolvorosa/CloudAssignment2/blob/master/Images/Snap3.PNG =150x150)
+![Create and Email Task](https://github.com/JohnPolvorosa/CloudAssignment2/blob/master/Images/Snap3.PNG)
 
 
-![Modify Task](https://github.com/JohnPolvorosa/CloudAssignment2/blob/master/Images/Snap2.PNG =150x150)
+![Modify Task](https://github.com/JohnPolvorosa/CloudAssignment2/blob/master/Images/Snap2.PNG)
 
 
 
