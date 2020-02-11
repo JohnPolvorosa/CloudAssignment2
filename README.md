@@ -12,7 +12,7 @@
 ![HomePage](https://github.com/JohnPolvorosa/CloudAssignment2/blob/master/Images/Snap1.PNG)
 
 
-![Modify Task](https://github.com/JohnPolvorosa/CloudAssignment2/tree/master/Images/Snap2.PNG)
+![Modify Task](https://github.com/JohnPolvorosa/CloudAssignment2/blob/master/Images/Snap2.PNG)
 
 
 ![Create and Email Task](https://github.com/JohnPolvorosa/CloudAssignment2/tree/master/Images/Snap3.PNG)
