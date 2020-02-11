@@ -4,18 +4,18 @@
 ### Using Speech to text recognition API and with email feature
 
 
-[Link to webapp](https://dry-river-89115.herokuapp.com/)
+#### [Link to webapp](https://dry-river-89115.herokuapp.com/)
 
 
 
 
-![HomePage](https://github.com/JohnPolvorosa/CloudAssignment2/blob/master/Images/Snap1.PNG)
+![HomePage](https://github.com/JohnPolvorosa/CloudAssignment2/blob/master/Images/Snap1.PNG =250x250)
 
 
-![Create and Email Task](https://github.com/JohnPolvorosa/CloudAssignment2/blob/master/Images/Snap3.PNG)
+![Create and Email Task](https://github.com/JohnPolvorosa/CloudAssignment2/blob/master/Images/Snap3.PNG =150x150)
 
 
-![Modify Task](https://github.com/JohnPolvorosa/CloudAssignment2/blob/master/Images/Snap2.PNG)
+![Modify Task](https://github.com/JohnPolvorosa/CloudAssignment2/blob/master/Images/Snap2.PNG =150x150)
 
 
 
