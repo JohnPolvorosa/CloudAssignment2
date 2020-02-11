@@ -1,0 +1,30 @@
+<!-- Inheritance html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Link to main-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+    <title>Teacher's Task List</title>
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <!-- As a heading -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand mb-0 h1 text-primary font-italic font-weight-bold" href="/">Task Manager</a>
+        </div>
+        <div class="container">
+            <a class="mb-0 mt-0 h6 text-primary font-italic" href="/">Speech to text</a>
+        </div>
+    </nav>  
+
+    {% block body %}   
+    {% endblock %}
+</body>
+
+<!-- block into template, insert code here to inherit to other-->

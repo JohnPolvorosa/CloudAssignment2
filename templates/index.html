@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+
+
+{% block body %}
+<div class="content">
+    <h1></h1>
+    {% if tasks|length < 1 %}
+    <h4 style="text-align: center">You have no tasks, Create a new one!</h4>
+
+    {% else %}
+
+    <table>
+        <tr class="text-primary">
+            <th>Task</th>
+            <th>Date Added</th>
+            <th>Actions</th>
+            <th>Due Date</th>
+        </tr>
+        {% for task in tasks %}
+            <tr>
+                <td>{{ task.content }}</td>
+                <td>{{ task.date_created.date() }}</td>
+        
+                <td>
+                    <a href="/update/{{ task.id }}">Modify</a>
+                    <!-- <br> -->
+                    <!-- <a href="/complete/{{ task.id }}">Complete</a> -->
+                    <br>
+                    <a href="/delete/{{ task.id }}">Complete</a>
+                </td>
+                <td> 
+                   
+                    <!--asdf <a href="/duedate/{{ task.id }}"></a> -->
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    {% endif %}
+
+    <div class="form mt-5">
+        <form action="/" method="POST">
+            <div class="form-group">
+                <div>
+                    <label for="company">Task Name</label>
+                    <input class="form-control" type="text" name="content" id="content" >
+                </div>
+
+            <div class="form-group mt-3">
+                <label for="email">Email</label>
+                <input class="form-control" type="email" name="emailaddress" id="emailaddress" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" >
+            </div>
+
+            <div>
+                <small class="center mb-1">Type in email to have an email reminder sent to you</small>
+            </div>
+
+            <div>
+                <button class="btn btn-primary btn-block mb-5" name="addTask" value="Add Task" 
+                onclick="myFunction()" data-toggle="tooltip" data-placement="top" title="Leave 'Task Name' blank if you want to use your microphone to record audio to make one">Add Task
+                </button>
+            </div>
+            
+        </form>
+    </div>
+</div>
+
+<script>
+let email = document.getElementById('emailaddress');
+
+function myFunction() {
+  console.log(`Email sent to : ${email.value}!`);
+}
+</script>
+
+{% endblock %}
+
