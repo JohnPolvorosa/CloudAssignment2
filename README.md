@@ -8,5 +8,9 @@
 
 
 ![PIC](https://github.com/JohnPolvorosa/CloudAssignment2/tree/master/Images/Snap1.PNG)
+
+
 ![PIC](https://github.com/JohnPolvorosa/CloudAssignment2/tree/master/Images/Snap2.PNG)
+
+
 ![PIC](https://github.com/JohnPolvorosa/CloudAssignment2/tree/master/Images/Snap3.PNG)
