@@ -6,6 +6,8 @@
 
 [Link to webapp](https://dry-river-89115.herokuapp.com/)
 
+![Snap1](https://github.com/JohnPolvorosa/CloudAssignment2/tree/master/Images/Snap1.PNG "Home Page")
+
 
 ![PIC](https://github.com/JohnPolvorosa/CloudAssignment2/tree/master/Images/Snap1.PNG)
 
