@@ -5,8 +5,8 @@
 
 
 #### [Link to webapp](https://dry-river-89115.herokuapp.com/)
-### S3 Storage 
-###### Crashed when beanstalk wouldn't accept speech api
+## S3 Storage
+##### Crashed when beanstalk wouldn't accept speech api
 ![s3](https://github.com/JohnPolvorosa/CloudAssignment2/blob/master/Images/Snap5.PNG)
 
 
